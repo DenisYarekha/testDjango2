@@ -122,3 +122,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Настройки для CSRF и сессионных куки
+CSRF_COOKIE_SECURE = True  # Передавать CSRF-куки только через HTTPS
+CSRF_COOKIE_HTTPONLY = True  # Запретить доступ к CSRF-кукам через JavaScript
+SESSION_COOKIE_SECURE = True  # Передавать сессионные куки только через HTTPS
