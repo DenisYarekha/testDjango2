@@ -125,6 +125,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_COOKIE_SCURE = False
 
-CSRF_TRUSTED_ORIGINS = ['*']
+#CSRF_TRUSTED_ORIGINS = ['*']
 
 
